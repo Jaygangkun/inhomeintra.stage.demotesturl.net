@@ -1,0 +1,95 @@
+{
+    "key": "group_631f8d3e4ecc3",
+    "title": "Training Module Toolkit",
+    "fields": [
+        {
+            "key": "field_631f8e8af9e14",
+            "label": "Toolkit Details",
+            "name": "toolkit_details",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_631f8ea2f9e16",
+                    "label": "Toolkit Category",
+                    "name": "toolkit_category",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Please Select": "Please Select",
+                        "OT Toolkit": "OT Toolkit",
+                        "PT Toolkit": "PT Toolkit",
+                        "Alora Training": "Alora Training",
+                        "Axxess Training": "Axxess Training",
+                        "Devero Training": "Devero Training",
+                        "Kantime Training": "Kantime Training",
+                        "Kinnser Training": "Kinnser Training",
+                        "Therapyboss Training": "Therapyboss Training"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "default_value": "",
+                    "layout": "vertical",
+                    "return_format": "value",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_631f8ec0f9e19",
+                    "label": "Toolkit File Download",
+                    "name": "toolkit_file_download",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "toolkit.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1664295237
+}

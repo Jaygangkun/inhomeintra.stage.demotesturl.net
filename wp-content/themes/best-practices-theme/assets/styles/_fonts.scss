@@ -1,0 +1,106 @@
+/* stylelint-disable */
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.woff") format("woff"),
+  url("../fonts/icomoon.woff") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-map-marker-alt-solid:before {
+  content: "\e916";
+}
+.icon-building-duotone .path1:before {
+  content: "\e917";
+  color: rgb(68, 68, 68);
+  opacity: 0.4;
+}
+.icon-building-duotone .path2:before {
+  content: "\e918";
+  margin-left: -0.875em;
+  color: rgb(68, 68, 68);
+}
+.icon-user-solid:before {
+  content: "\e919";
+}
+.icon-arrow-from-top-regular:before {
+  content: "\e915";
+}
+.icon-sign-out-regular:before {
+  content: "\e911";
+}
+.icon-angle-right-regular:before {
+  content: "\e910";
+}
+.icon-down-to-line:before {
+  content: "\e90f";
+}
+.icon-times-circle-light:before {
+  content: "\e907";
+}
+.icon-link-light:before {
+  content: "\e909";
+}
+.icon-chevron-circle-left-light:before {
+  content: "\e90a";
+}
+.icon-chevron-circle-right-light:before {
+  content: "\e90b";
+}
+.icon-long-arrow-right-light:before {
+  content: "\e908";
+}
+.icon-arrow-right-light:before {
+  content: "\e90c";
+}
+.icon-chevron-right-light1:before {
+  content: "\e90d";
+}
+.icon-download:before {
+  content: "\e90e";
+}
+.icon-twitter-square-brands:before {
+  content: "\e913";
+}
+.icon-facebook:before {
+  content: "\e914";
+}
+.icon-linkedin:before {
+  content: "\e912";
+}
+.icon-instagram:before {
+  content: "\e901";
+}
+.icon-flickr:before {
+  content: "\e902";
+}
+.icon-linkedin1:before {
+  content: "\e903";
+}
+.icon-twitter:before {
+  content: "\e904";
+}
+.icon-facebook1:before {
+  content: "\e905";
+}
+.icon-search:before {
+  content: "\e906";
+}
+.icon-youtube:before {
+  content: "\e900";
+}

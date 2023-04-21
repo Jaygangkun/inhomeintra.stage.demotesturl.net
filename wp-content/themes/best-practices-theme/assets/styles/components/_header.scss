@@ -1,0 +1,136 @@
+/** @define header **/
+/* stylelint-disable */
+.header {
+  position: relative;
+  padding: 21px 0 19px;
+  background: #fff;
+
+  @include media-breakpoint-down(sm) {
+    padding: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    @include media-breakpoint-down(sm) {
+      position: static;
+    }
+  }
+
+  .logo {
+    display: block;
+    width: 181px;
+    position: relative;
+    z-index: 9999;
+
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+      margin: 0 -15px;
+      padding: 10px 20px;
+      background: #fff;
+
+      .menu-active & {
+        background: #f0f6fa;
+      }
+    }
+
+    a {
+      display: block;
+
+      @include media-breakpoint-down(sm) {
+        width: 150px;
+      }
+    }
+
+    img {
+      @include img-style;
+    }
+  }
+}
+
+
+.logo {
+  display: block;
+  width: 181px;
+  position: relative;
+  z-index: 9999;
+
+  @include media-breakpoint-down(sm) {
+    width: 150px;
+  }
+
+  a {
+    display: block;
+  }
+
+  img {
+    @include img-style;
+  }
+}
+
+.right-area {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 60px 0 0;
+
+  @include media-breakpoint-down(sm) {
+    padding: 80px 20px 50px;
+    display: block;
+  }
+}
+
+.top-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 76px 0 0;
+  font-size: 15px;
+  line-height: 20px;
+
+  @include media-breakpoint-down(md) {
+    margin: 0 40px 0 0;
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin: 0 0 30px;
+    font-size: 16px;
+  }
+
+  li {
+    position: relative;
+    padding: 0 12px;
+
+    &:before {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      content: '';
+      background: #dde5ed;
+    }
+
+    &:first-child {
+
+      padding-left: 0;
+
+      &:before {
+        display: none;
+      }
+    }
+  }
+
+  a {
+    font-weight: 700;
+    color: #003b5c;
+
+    &:hover {
+      color: #ff8a3d;
+    }
+  }
+}
+

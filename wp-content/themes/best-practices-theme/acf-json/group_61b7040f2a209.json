@@ -1,0 +1,23 @@
+{
+    "key": "group_61b7040f2a209",
+    "title": "Additional User Fields (copy)",
+    "fields": false,
+    "location": [
+        [
+            {
+                "param": "user_form",
+                "operator": "==",
+                "value": "register"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1639384079
+}

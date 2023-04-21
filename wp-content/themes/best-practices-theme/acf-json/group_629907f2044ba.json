@@ -1,0 +1,43 @@
+{
+    "key": "group_629907f2044ba",
+    "title": "Clinical Directors Feed Page",
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "director-feed.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_629908020cf88",
+            "label": "Sub Heading",
+            "name": "directory_feed_subheading",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "modified": 1655178381
+}

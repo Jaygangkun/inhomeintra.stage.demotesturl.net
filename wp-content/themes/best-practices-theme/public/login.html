@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" class="loader">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+	<title>In Home Therapy</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="custom.css">
+</head>
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<div class="login_section">
+				<div class="circle"></div>
+				<div class="container">
+					<div class="dots-strip"></div>
+					<div class="row">
+						<div class="col-md-7">
+							<ul class="list-unstyled image_list">
+								<li class="image1">
+									<div class="image">
+										<img src="images/login_image1.png" alt="image-description">
+									</div>
+								</li>
+								<li>
+									<div class="image">
+										<img src="images/login_image2.png" alt="image-description">
+									</div>
+								</li>
+								<li>
+									<div class="image">
+										<img src="images/login_image3.png" alt="image-description">
+									</div>
+								</li>
+								<li>
+									<div class="image">
+										<img src="images/login_image4.png" alt="image-description">
+									</div>
+								</li>
+								<li>
+									<div class="image">
+										<img src="images/login_image5.png" alt="image-description">
+									</div>
+								</li>
+								<li>
+									<div class="image">
+										<img src="images/login_image6.png" alt="image-description">
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-5">
+							<div class="login_form_area">
+								<strong class="logo"><a href="#"><img src="images/logo.svg" alt="In Home Therapy"></a></strong>
+								<h1>Welcome to your InHome Therapy Portal! </h1>
+								<div class="loginbox-wrap">
+									<form name="loginform" action="{{the_permalink()}}" method="post">
+					                <!--@if(isset($_GET['error_mesg']) && !empty($_GET['error_mesg']))
+					                    <span class="form-error">{!!base64_decode(urldecode($_GET['error_mesg']))!!}</span>
+					                @endif-->
+						                <p class="login-username"> 
+						                    <label for="user_login">Username</label>
+						                    <input type="text" name="userName" id="user_login" class="input" value="" >
+						                </p>
+						                <p class="login-password">
+						                    <label for="user_pass">Password</label>
+						                    <input type="password" name="passWord" id="user_pass" class="input" value="" >
+						                </p>
+						                <p class="login-remember">
+						                    <label><input name="rememberMe" type="checkbox" id="rememberme" value="forever"> Remember Me</label>
+						                    <a class="forgot-password" href="{{home_url('/forgot-password/')}}">Forgot Password?</a>
+						                </p>
+						                <p class="login-submit">
+						                    <input type="hidden" name="login_Sbumit" >
+						                    <input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Log In">
+						                    <input type="hidden" name="redirect_to" value="{{home_url('/log-in/')}}">
+						                </p>
+					            	</form>
+					            	<div class="text">
+					            		<p>Having trouble logging in? Email us at<br> <a href="mailto:email@inhometherapy.com">email@inhometherapy.com</a></p>
+					            	</div>
+					            	<div class="captcha">
+					            		<p>This site is protected by reCAPTCHA and the Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.</p>
+					            	</div>
+					            </div>
+					      
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="holder">
+					<strong class="logo"><a href="#"><img src="images/logo.svg" alt="In Home Therapy"></a></strong>
+					<p>©2021, <a href="#">InHome Therapy</a>  |  Models are used to represent InHome employees and clients in order to retain privacy.</p>
+					<a href="#" class="btn btn-primary">Support</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

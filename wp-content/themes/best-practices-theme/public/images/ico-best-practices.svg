@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 29 34.2" style="enable-background:new 0 0 29 34.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#97CA4C;}
+	.st1{clip-path:url(#SVGID_2_);fill:none;stroke:#25282A;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#25282A;stroke-miterlimit:10;}
+</style>
+<rect x="6.4" y="10" class="st0" width="3.9" height="3.9"/>
+<rect x="6.4" y="17.7" class="st0" width="3.9" height="3.9"/>
+<rect x="6.4" y="25" class="st0" width="3.9" height="3.9"/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="0" width="29" height="34.3"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<polygon class="st1" points="0.5,33.7 28.5,33.7 28.5,7.5 19.5,0.5 0.5,0.5 	"/>
+	<polyline class="st1" points="28.5,7.5 19.8,7.5 19.8,0.5 	"/>
+</g>
+<rect x="5.5" y="9" class="st2" width="3.6" height="3.6"/>
+<rect x="5.5" y="16.7" class="st2" width="3.6" height="3.6"/>
+<rect x="5.5" y="24" class="st2" width="3.6" height="3.6"/>
+<line class="st2" x1="11.5" y1="11.1" x2="20.1" y2="11.1"/>
+<line class="st2" x1="11.5" y1="18.5" x2="22.4" y2="18.5"/>
+<line class="st2" x1="11.5" y1="25.8" x2="17.4" y2="25.8"/>
+</svg>
