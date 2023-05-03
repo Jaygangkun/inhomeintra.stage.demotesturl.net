@@ -17,8 +17,9 @@ $current_page_url = rtrim(home_url( $wp->request ), '/') . '/';
 		        'post_type' => 'dlp_document',
 		        'posts_per_page' => -1,
 		        'paged'          => $paged,
-		        'order'          => 'DESC',
-		        's'				 => $_GET['search_text']
+		        's'				 => $_GET['search_text'],
+                'order'          => 'ASC',
+                'orderby' => 'title'
 		    );
 
 		    if(!empty($_GET['doc_cat']))
@@ -30,6 +31,14 @@ $current_page_url = rtrim(home_url( $wp->request ), '/') . '/';
 			            'terms' => $_GET['doc_cat'],
 			        )
 			    );
+
+                if ($_GET['doc_cat'] == "compliance-and-quality-resources") {
+                    $args['meta_key'] = 'custom_order';
+                    $args['meta_type'] = 'NUMERIC';
+                    $args['orderby'] = [
+                        'meta_value_num' => 'ASC'
+                    ];
+                }
 		    }
 
 		    if(!empty($_GET['doc_sub_cat']))
