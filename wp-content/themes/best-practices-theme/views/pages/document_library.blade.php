@@ -31,7 +31,7 @@ $current_page_url = rtrim(home_url( $wp->request ), '/') . '/';
 			            'terms' => $_GET['doc_cat'],
 			        )
 			    );
-
+                
                 if ($_GET['doc_cat'] == "compliance-and-quality-resources") {
                     $args['meta_key'] = 'custom_order';
                     $args['meta_type'] = 'NUMERIC';
